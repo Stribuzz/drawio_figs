@@ -1,4 +1,150 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.17" pages="4">
+  <diagram id="TyI8GCa5SWBXYFEs--TL" name="Detailed schematic of GRAVITY+">
+    <mxGraphModel dx="1687" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-1" value="&lt;div&gt;Source map&lt;/div&gt;&lt;div&gt;\((M, \rho, \theta)_i \)&lt;/div&gt;&lt;div&gt;for FTS; NGS; SCI&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="160" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hXtAyJAf7nLu1GZ-8GX0-5" target="hXtAyJAf7nLu1GZ-8GX0-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="310" as="sourcePoint" />
+            <mxPoint x="340" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-6" value="Dictionary:&lt;br&gt;&lt;div&gt;\(U(\rho,\theta)\) - complex EMF at the source (point-like sources).&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="40" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="hXtAyJAf7nLu1GZ-8GX0-1" target="hXtAyJAf7nLu1GZ-8GX0-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="210" as="sourcePoint" />
+            <mxPoint x="340" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-5" value="$$ U(\rho,\theta)$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="195" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-9" value="\(\mathcal{F}(U(\rho,\theta))\)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="290" y="165" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="hXtAyJAf7nLu1GZ-8GX0-18" target="hXtAyJAf7nLu1GZ-8GX0-23" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="310" as="sourcePoint" />
+            <mxPoint x="540" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="hXtAyJAf7nLu1GZ-8GX0-9" target="hXtAyJAf7nLu1GZ-8GX0-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="210" as="sourcePoint" />
+            <mxPoint x="540" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-18" value="&lt;div&gt;Plane wave&lt;br&gt;&lt;/div&gt;&lt;div&gt;\((A,\phi)\)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="425" y="195" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hXtAyJAf7nLu1GZ-8GX0-23" edge="1" target="bNVEcuSV_b9tt5QCyfa2-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-33" value="&lt;div&gt;Corrugated wave&lt;/div&gt;&lt;div&gt;\((A, \phi + \sum \phi_{atm,i})\)&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hXtAyJAf7nLu1GZ-8GX0-32" vertex="1" connectable="0">
+          <mxGeometry x="-0.1761" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-23" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.abstract.sum;" parent="1" vertex="1">
+          <mxGeometry x="530" y="185" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-27" value="&lt;div&gt;\(D_\phi (r_0,L_0)\) &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;vk PSD&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="515" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="hXtAyJAf7nLu1GZ-8GX0-27" target="hXtAyJAf7nLu1GZ-8GX0-23" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="310" as="sourcePoint" />
+            <mxPoint x="410" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-30" value="&lt;div&gt;Phase disturbance&lt;/div&gt;&lt;div&gt;\( \phi(\rho) \)&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hXtAyJAf7nLu1GZ-8GX0-29" vertex="1" connectable="0">
+          <mxGeometry x="0.0061" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNVEcuSV_b9tt5QCyfa2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bNVEcuSV_b9tt5QCyfa2-1" target="H-94YVbTqrOb8Ed35MNI-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNVEcuSV_b9tt5QCyfa2-1" value="Aperture mask" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="750" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bNVEcuSV_b9tt5QCyfa2-2" value="&lt;div&gt;EMF at Aperture&lt;br&gt;&lt;/div&gt;&lt;div&gt;\((A, \phi + \sum \phi_{atm,i})_{masked}\)&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="920" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="H-94YVbTqrOb8Ed35MNI-1" value="&lt;div&gt;Deformable&lt;/div&gt;&lt;div&gt;Mirror&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H-94YVbTqrOb8Ed35MNI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="H-94YVbTqrOb8Ed35MNI-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1790" y="210" as="targetPoint" />
+            <mxPoint x="1180" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nqkK0k3qLA1jHu54Wnf-1" value="&lt;div&gt;HO corrected wavefront&lt;/div&gt;&lt;div&gt;\((A, \phi_{corr})\)&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H-94YVbTqrOb8Ed35MNI-3">
+          <mxGeometry x="-0.0268" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H-94YVbTqrOb8Ed35MNI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H-94YVbTqrOb8Ed35MNI-4" target="H-94YVbTqrOb8Ed35MNI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H-94YVbTqrOb8Ed35MNI-15" value="&lt;div&gt;Phase estimate&lt;br&gt;&lt;/div&gt;&lt;div&gt;\( H^+s = \hat{\phi}\) &lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H-94YVbTqrOb8Ed35MNI-9">
+          <mxGeometry x="0.1583" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H-94YVbTqrOb8Ed35MNI-4" value="Shack-Hartmann&lt;br&gt;&lt;div&gt;Wavefront sensor&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H-94YVbTqrOb8Ed35MNI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="H-94YVbTqrOb8Ed35MNI-5" target="H-94YVbTqrOb8Ed35MNI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H-94YVbTqrOb8Ed35MNI-16" value="&lt;div&gt;Mirror commands&lt;/div&gt;&lt;div&gt;\(v\) &lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H-94YVbTqrOb8Ed35MNI-10">
+          <mxGeometry x="0.0526" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H-94YVbTqrOb8Ed35MNI-5" value="&lt;div&gt;Controller&lt;/div&gt;(control matrix)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H-94YVbTqrOb8Ed35MNI-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="H-94YVbTqrOb8Ed35MNI-1" target="H-94YVbTqrOb8Ed35MNI-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="210" as="targetPoint" />
+            <mxPoint x="1140" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H-94YVbTqrOb8Ed35MNI-11" value="&lt;div&gt;HO corrected wavefront&lt;/div&gt;&lt;div&gt;(\( A, \phi_{corr}=\phi + \sum \phi_{atm,i} - \phi_{DM} \))&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H-94YVbTqrOb8Ed35MNI-7">
+          <mxGeometry x="-0.0222" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H-94YVbTqrOb8Ed35MNI-6" value="&lt;div&gt;Beam&lt;/div&gt;&lt;div&gt;Splitter&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="180" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H-94YVbTqrOb8Ed35MNI-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="H-94YVbTqrOb8Ed35MNI-6" target="H-94YVbTqrOb8Ed35MNI-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="320" as="sourcePoint" />
+            <mxPoint x="960" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H-94YVbTqrOb8Ed35MNI-14" value="&lt;div&gt;HO corrected wavefront&lt;/div&gt;&lt;div&gt;(\( A, \phi + \sum \phi_{atm,i} - \phi_{DM} \))&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H-94YVbTqrOb8Ed35MNI-8">
+          <mxGeometry x="-0.0421" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2963" dy="1580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -368,152 +514,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="1150" as="sourcePoint" />
             <mxPoint x="510" y="1100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="TyI8GCa5SWBXYFEs--TL" name="Detailed schematic of GRAVITY+">
-    <mxGraphModel dx="1687" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-1" value="&lt;div&gt;Source map&lt;/div&gt;&lt;div&gt;\((M, \rho, \theta)_i \)&lt;/div&gt;&lt;div&gt;for FTS; NGS; SCI&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="160" width="120" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hXtAyJAf7nLu1GZ-8GX0-5" target="hXtAyJAf7nLu1GZ-8GX0-9" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="310" as="sourcePoint" />
-            <mxPoint x="340" y="210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-6" value="Dictionary:&lt;br&gt;&lt;div&gt;\(U(\rho,\theta)\) - complex EMF at the source (point-like sources).&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="30" y="40" width="450" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="hXtAyJAf7nLu1GZ-8GX0-1" target="hXtAyJAf7nLu1GZ-8GX0-5" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="210" as="sourcePoint" />
-            <mxPoint x="340" y="210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-5" value="$$ U(\rho,\theta)$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="200" y="195" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-9" value="\(\mathcal{F}(U(\rho,\theta))\)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="290" y="165" width="90" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="hXtAyJAf7nLu1GZ-8GX0-18" target="hXtAyJAf7nLu1GZ-8GX0-23" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="310" as="sourcePoint" />
-            <mxPoint x="540" y="210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="hXtAyJAf7nLu1GZ-8GX0-9" target="hXtAyJAf7nLu1GZ-8GX0-18" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="210" as="sourcePoint" />
-            <mxPoint x="540" y="210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-18" value="&lt;div&gt;Plane wave&lt;br&gt;&lt;/div&gt;&lt;div&gt;\((A,\phi)\)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="425" y="195" width="65" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hXtAyJAf7nLu1GZ-8GX0-23" edge="1" target="bNVEcuSV_b9tt5QCyfa2-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="730" y="210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-33" value="&lt;div&gt;Corrugated wave&lt;/div&gt;&lt;div&gt;\((A, \phi + \sum \phi_{atm,i})\)&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hXtAyJAf7nLu1GZ-8GX0-32" vertex="1" connectable="0">
-          <mxGeometry x="-0.1761" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-23" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.abstract.sum;" parent="1" vertex="1">
-          <mxGeometry x="530" y="185" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-27" value="&lt;div&gt;\(D_\phi (r_0,L_0)\) &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;vk PSD&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="515" y="400" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="hXtAyJAf7nLu1GZ-8GX0-27" target="hXtAyJAf7nLu1GZ-8GX0-23" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="310" as="sourcePoint" />
-            <mxPoint x="410" y="260" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hXtAyJAf7nLu1GZ-8GX0-30" value="&lt;div&gt;Phase disturbance&lt;/div&gt;&lt;div&gt;\( \phi(\rho) \)&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hXtAyJAf7nLu1GZ-8GX0-29" vertex="1" connectable="0">
-          <mxGeometry x="0.0061" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bNVEcuSV_b9tt5QCyfa2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bNVEcuSV_b9tt5QCyfa2-1" target="H-94YVbTqrOb8Ed35MNI-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1040" y="210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bNVEcuSV_b9tt5QCyfa2-1" value="Aperture mask" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="750" y="170" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="bNVEcuSV_b9tt5QCyfa2-2" value="&lt;div&gt;EMF at Aperture&lt;br&gt;&lt;/div&gt;&lt;div&gt;\((A, \phi + \sum \phi_{atm,i})_{masked}\)&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="920" y="210" as="geometry" />
-        </mxCell>
-        <mxCell id="H-94YVbTqrOb8Ed35MNI-1" value="&lt;div&gt;Deformable&lt;/div&gt;&lt;div&gt;Mirror&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="180" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="H-94YVbTqrOb8Ed35MNI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="H-94YVbTqrOb8Ed35MNI-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1790" y="210" as="targetPoint" />
-            <mxPoint x="1180" y="220" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7nqkK0k3qLA1jHu54Wnf-1" value="&lt;div&gt;HO corrected wavefront&lt;/div&gt;&lt;div&gt;\((A, \phi_{corr})\)&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H-94YVbTqrOb8Ed35MNI-3">
-          <mxGeometry x="-0.0268" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="H-94YVbTqrOb8Ed35MNI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H-94YVbTqrOb8Ed35MNI-4" target="H-94YVbTqrOb8Ed35MNI-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="H-94YVbTqrOb8Ed35MNI-15" value="&lt;div&gt;Phase estimate&lt;br&gt;&lt;/div&gt;&lt;div&gt;\( H^+s = \hat{\phi}\) &lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H-94YVbTqrOb8Ed35MNI-9">
-          <mxGeometry x="0.1583" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="H-94YVbTqrOb8Ed35MNI-4" value="Shack-Hartmann&lt;br&gt;&lt;div&gt;Wavefront sensor&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="430" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="H-94YVbTqrOb8Ed35MNI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="H-94YVbTqrOb8Ed35MNI-5" target="H-94YVbTqrOb8Ed35MNI-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="H-94YVbTqrOb8Ed35MNI-16" value="&lt;div&gt;Mirror commands&lt;/div&gt;&lt;div&gt;\(v\) &lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H-94YVbTqrOb8Ed35MNI-10">
-          <mxGeometry x="0.0526" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="H-94YVbTqrOb8Ed35MNI-5" value="&lt;div&gt;Controller&lt;/div&gt;(control matrix)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="430" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="H-94YVbTqrOb8Ed35MNI-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="H-94YVbTqrOb8Ed35MNI-1" target="H-94YVbTqrOb8Ed35MNI-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1420" y="210" as="targetPoint" />
-            <mxPoint x="1140" y="210" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="H-94YVbTqrOb8Ed35MNI-11" value="&lt;div&gt;HO corrected wavefront&lt;/div&gt;&lt;div&gt;(\( A, \phi_{corr}=\phi + \sum \phi_{atm,i} - \phi_{DM} \))&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H-94YVbTqrOb8Ed35MNI-7">
-          <mxGeometry x="-0.0222" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="H-94YVbTqrOb8Ed35MNI-6" value="&lt;div&gt;Beam&lt;/div&gt;&lt;div&gt;Splitter&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="180" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="H-94YVbTqrOb8Ed35MNI-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="H-94YVbTqrOb8Ed35MNI-6" target="H-94YVbTqrOb8Ed35MNI-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="910" y="320" as="sourcePoint" />
-            <mxPoint x="960" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="H-94YVbTqrOb8Ed35MNI-14" value="&lt;div&gt;HO corrected wavefront&lt;/div&gt;&lt;div&gt;(\( A, \phi + \sum \phi_{atm,i} - \phi_{DM} \))&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H-94YVbTqrOb8Ed35MNI-8">
-          <mxGeometry x="-0.0421" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
