@@ -1,9 +1,47 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.15">
   <diagram name="Page-1" id="xWYlm4pE80A-xBOLCYpe">
-    <mxGraphModel>
+    <mxGraphModel dx="1185" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hfKefeIay_cXjgvlu-Lk-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="140" y="455" width="385" height="345" as="geometry" />
+        </mxCell>
+        <mxCell id="hfKefeIay_cXjgvlu-Lk-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.researchgate.net/publication/312346080/figure/fig1/AS:473090707726338@1489805022198/llustration-of-an-atmospheric-turbulence-phase-screen.png;textOpacity=50;fillOpacity=50;imageBackground=default;imageBorder=none;" vertex="1" parent="hfKefeIay_cXjgvlu-Lk-14">
+          <mxGeometry x="305" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hfKefeIay_cXjgvlu-Lk-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.researchgate.net/publication/312346080/figure/fig1/AS:473090707726338@1489805022198/llustration-of-an-atmospheric-turbulence-phase-screen.png;textOpacity=50;fillOpacity=50;imageBackground=default;imageBorder=none;" vertex="1" parent="hfKefeIay_cXjgvlu-Lk-14">
+          <mxGeometry y="195" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hfKefeIay_cXjgvlu-Lk-1" value="T1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;opacity=70;" vertex="1" parent="hfKefeIay_cXjgvlu-Lk-14">
+          <mxGeometry x="20" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hfKefeIay_cXjgvlu-Lk-2" value="T2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;opacity=70;" vertex="1" parent="hfKefeIay_cXjgvlu-Lk-14">
+          <mxGeometry x="80" y="275" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hfKefeIay_cXjgvlu-Lk-3" value="T3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;opacity=70;" vertex="1" parent="hfKefeIay_cXjgvlu-Lk-14">
+          <mxGeometry x="320" y="15" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hfKefeIay_cXjgvlu-Lk-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="hfKefeIay_cXjgvlu-Lk-14" source="hfKefeIay_cXjgvlu-Lk-2" target="hfKefeIay_cXjgvlu-Lk-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="205" as="sourcePoint" />
+            <mxPoint x="220" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hfKefeIay_cXjgvlu-Lk-11" value="&lt;span&gt;\(\Delta r &amp;lt; L_0\)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="hfKefeIay_cXjgvlu-Lk-14">
+          <mxGeometry x="50" y="245" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hfKefeIay_cXjgvlu-Lk-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="hfKefeIay_cXjgvlu-Lk-14" source="hfKefeIay_cXjgvlu-Lk-4" target="hfKefeIay_cXjgvlu-Lk-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="205" as="sourcePoint" />
+            <mxPoint x="220" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hfKefeIay_cXjgvlu-Lk-13" value="&lt;span&gt;\(\Delta r &amp;gt;&amp;gt; L_0\)&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hfKefeIay_cXjgvlu-Lk-12">
+          <mxGeometry x="0.0779" y="2" relative="1" as="geometry">
+            <mxPoint x="-42" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
