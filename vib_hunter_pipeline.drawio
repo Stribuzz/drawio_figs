@@ -1,6 +1,151 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="27.1.6">
-  <diagram name="Page-1" id="1XAKahxuG5cxGaPZJlzo">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="27.1.6" pages="3">
+  <diagram name="General method" id="1XAKahxuG5cxGaPZJlzo">
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-11" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="90" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QiLoAfnm8pdi8m4GmsPh-1" target="QiLoAfnm8pdi8m4GmsPh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="70" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-2" value="Start" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QiLoAfnm8pdi8m4GmsPh-3" target="QiLoAfnm8pdi8m4GmsPh-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-3" value="&lt;div&gt;Read time series&lt;/div&gt;&lt;div&gt;&amp;nbsp;data from .fits file&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="340" y="90" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-7" value="&lt;div align=&quot;left&quot;&gt;Contains:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- MANHATTAN-II sensor data;&lt;/div&gt;&lt;div&gt;- Fringe Tracker sensor and actuator;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="360" y="95" width="205" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QiLoAfnm8pdi8m4GmsPh-8" target="QiLoAfnm8pdi8m4GmsPh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-8" value="&lt;div&gt;Reconstruct POL&lt;/div&gt;&lt;div&gt;of the FT&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-9" value="PSD calculation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-12" value="Pre-algorithm" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.233;exitY=0.489;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QiLoAfnm8pdi8m4GmsPh-30" target="QiLoAfnm8pdi8m4GmsPh-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QiLoAfnm8pdi8m4GmsPh-20" target="QiLoAfnm8pdi8m4GmsPh-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-20" value="&lt;div&gt;Background&lt;/div&gt;&lt;div&gt;fit&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QiLoAfnm8pdi8m4GmsPh-23" target="QiLoAfnm8pdi8m4GmsPh-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-23" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="590" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QiLoAfnm8pdi8m4GmsPh-30" target="QiLoAfnm8pdi8m4GmsPh-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="500" as="sourcePoint" />
+            <mxPoint x="275" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QiLoAfnm8pdi8m4GmsPh-9" target="QiLoAfnm8pdi8m4GmsPh-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="340" as="sourcePoint" />
+            <mxPoint x="275" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-30" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=2;shape=mxgraph.lean_mapping.sequenced_pull_ball;" vertex="1" parent="1">
+          <mxGeometry x="270" y="460" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QiLoAfnm8pdi8m4GmsPh-32" target="QiLoAfnm8pdi8m4GmsPh-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-32" value="Threshold identification of vibrations" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QiLoAfnm8pdi8m4GmsPh-34" target="QiLoAfnm8pdi8m4GmsPh-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-34" value="Grouping of nearby peak detection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QiLoAfnm8pdi8m4GmsPh-37" target="QiLoAfnm8pdi8m4GmsPh-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-37" value="&lt;div&gt;Iterative fitting&amp;nbsp;&lt;/div&gt;&lt;div&gt;routine of&amp;nbsp;&lt;/div&gt;&lt;div&gt;grouped peak&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QiLoAfnm8pdi8m4GmsPh-39" value="Peak characteristics" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Y8nqkkZ_5XeSUrvlBZkK" name="Background fitting">
+    <mxGraphModel dx="1188" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fGq2NZ8uFI8Dyvq9e7ZL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fGq2NZ8uFI8Dyvq9e7ZL-7" target="fGq2NZ8uFI8Dyvq9e7ZL-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="190" as="targetPoint" />
+            <mxPoint x="310" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGq2NZ8uFI8Dyvq9e7ZL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fGq2NZ8uFI8Dyvq9e7ZL-3" target="fGq2NZ8uFI8Dyvq9e7ZL-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310.1034482758621" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGq2NZ8uFI8Dyvq9e7ZL-3" value="&lt;div&gt;Linearization of sample&lt;/div&gt;&lt;div&gt;&amp;lt; log(f), log(PSD) &amp;gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fGq2NZ8uFI8Dyvq9e7ZL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fGq2NZ8uFI8Dyvq9e7ZL-5" target="fGq2NZ8uFI8Dyvq9e7ZL-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310.1034482758621" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGq2NZ8uFI8Dyvq9e7ZL-5" value="&lt;div&gt;curve_fit&lt;/div&gt;&lt;div&gt;&lt;b&gt;[ lowess | polyfit ]&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fGq2NZ8uFI8Dyvq9e7ZL-7" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=2;shape=mxgraph.lean_mapping.sequenced_pull_ball;" vertex="1" parent="1">
+          <mxGeometry x="280" y="50" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fGq2NZ8uFI8Dyvq9e7ZL-8" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=2;shape=mxgraph.lean_mapping.sequenced_pull_ball;" vertex="1" parent="1">
+          <mxGeometry x="280" y="430" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fGq2NZ8uFI8Dyvq9e7ZL-9" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;Start&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="65" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fGq2NZ8uFI8Dyvq9e7ZL-10" value="&lt;div align=&quot;center&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;End&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="446" width="60" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UoGNCqvZpRSdEBSBbEcf" name="Detection of peaks">
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
