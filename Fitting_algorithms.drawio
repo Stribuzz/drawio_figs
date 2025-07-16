@@ -34,7 +34,7 @@
         <mxCell id="Z67YBWZhdE62S_oTQXHg-8" value="&lt;font style=&quot;font-size: 18px; color: light-dark(rgb(0, 0, 0), rgb(34, 34, 34));&quot;&gt;Estimate \(\hat{y}_i\)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="300" y="390" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Z67YBWZhdE62S_oTQXHg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z67YBWZhdE62S_oTQXHg-12" target="Z67YBWZhdE62S_oTQXHg-14">
+        <mxCell id="Z67YBWZhdE62S_oTQXHg-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z67YBWZhdE62S_oTQXHg-12" target="Z67YBWZhdE62S_oTQXHg-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z67YBWZhdE62S_oTQXHg-12" value="&lt;font style=&quot;font-size: 18px; color: light-dark(rgb(0, 0, 0), rgb(34, 34, 34));&quot;&gt;Compute residuals \(e_i=y_i-\hat{y}_i\)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
@@ -44,19 +44,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z67YBWZhdE62S_oTQXHg-14" value="&lt;font style=&quot;font-size: 18px; color: light-dark(rgb(0, 0, 0), rgb(34, 34, 34));&quot;&gt;Update weights \(w&#39;_k(x_i)=\delta_kw_k(x_i)\)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="210" y="740" width="330" height="40" as="geometry" />
+          <mxGeometry x="210" y="810" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Z67YBWZhdE62S_oTQXHg-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z67YBWZhdE62S_oTQXHg-15" target="Z67YBWZhdE62S_oTQXHg-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="375" y="920" />
-              <mxPoint x="150" y="920" />
+              <mxPoint x="375" y="960" />
+              <mxPoint x="150" y="960" />
               <mxPoint x="150" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z67YBWZhdE62S_oTQXHg-15" value="&lt;font style=&quot;font-size: 18px; color: light-dark(rgb(0, 0, 0), rgb(34, 34, 34));&quot;&gt;Refit using new wieghts&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="210" y="810" width="330" height="40" as="geometry" />
+        <mxCell id="Z67YBWZhdE62S_oTQXHg-15" value="&lt;font style=&quot;font-size: 18px; color: light-dark(rgb(0, 0, 0), rgb(34, 34, 34));&quot;&gt;Refit using new weights&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="880" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Z67YBWZhdE62S_oTQXHg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z67YBWZhdE62S_oTQXHg-22" target="Z67YBWZhdE62S_oTQXHg-12">
           <mxGeometry relative="1" as="geometry" />
@@ -81,6 +81,12 @@
         </mxCell>
         <mxCell id="Z67YBWZhdE62S_oTQXHg-28" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;End: Return \(\hat{y}\)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
           <mxGeometry x="585" y="510" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z67YBWZhdE62S_oTQXHg-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z67YBWZhdE62S_oTQXHg-32" target="Z67YBWZhdE62S_oTQXHg-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z67YBWZhdE62S_oTQXHg-32" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Estimation of \(\delta_k\)&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="740" width="330" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
