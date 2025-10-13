@@ -172,6 +172,9 @@
         <mxCell id="TtQZbWAMXKVdj9CI9R09-10" value="&lt;div&gt;detector delay:&amp;nbsp;&lt;/div&gt;&lt;div&gt;in frames&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="180" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="-P484MSQL_tHYl5IMrKy-1" value="**Note** The definition here assumes a position detector - the real one will use an acceleration measurement" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="600" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
