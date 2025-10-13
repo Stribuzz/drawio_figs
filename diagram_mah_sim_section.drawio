@@ -36,7 +36,7 @@
         <mxCell id="zL2rBSDNeWhpRYL6FzXf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zL2rBSDNeWhpRYL6FzXf-6" target="zL2rBSDNeWhpRYL6FzXf-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zL2rBSDNeWhpRYL6FzXf-6" value="&lt;div&gt;Add vibration piston from&lt;/div&gt;&lt;div&gt;vibration spectra&lt;/div&gt;&lt;div&gt;\(\phi_n = \phi_n + \phi^i_{vib,n-delay}\)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zL2rBSDNeWhpRYL6FzXf-6" value="&lt;div&gt;Add vibration piston from&lt;/div&gt;&lt;div&gt;vibration spectra&lt;/div&gt;&lt;div&gt;\(\phi_n = \phi_n + \phi^i_{vib,n}\)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="360" width="195" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rXeDVkCeucwJwdOs3aNK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zL2rBSDNeWhpRYL6FzXf-7" target="rXeDVkCeucwJwdOs3aNK-8">
