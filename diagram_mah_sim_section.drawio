@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.5" pages="5">
   <diagram id="vtG1QSBKQb1yQzs_CNGB" name="Reduced pipeline">
-    <mxGraphModel dx="946" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1183" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,7 +36,7 @@
         <mxCell id="zL2rBSDNeWhpRYL6FzXf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zL2rBSDNeWhpRYL6FzXf-6" target="zL2rBSDNeWhpRYL6FzXf-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zL2rBSDNeWhpRYL6FzXf-6" value="&lt;div&gt;Add vibration piston from&lt;/div&gt;&lt;div&gt;vibration spectra&lt;/div&gt;&lt;div&gt;\(\phi_n = \phi_n + \phi^i_{vib,n-delay} + n\)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zL2rBSDNeWhpRYL6FzXf-6" value="&lt;div&gt;Add vibration piston from&lt;/div&gt;&lt;div&gt;vibration spectra&lt;/div&gt;&lt;div&gt;\(\phi_n = \phi_n + \phi^i_{vib,n-delay}\)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="360" width="195" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rXeDVkCeucwJwdOs3aNK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zL2rBSDNeWhpRYL6FzXf-7" target="rXeDVkCeucwJwdOs3aNK-8">
