@@ -4,25 +4,28 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Yv8FQt4upBwkiq0QZttE-1" value="&lt;div&gt;PSD&lt;/div&gt;&lt;div&gt;von Karman&lt;/div&gt;&lt;div&gt;diff piston&lt;/div&gt;&lt;div&gt;\(\Phi_{atm}\)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="130" width="80" height="60" as="geometry" />
+        <mxCell id="WzZo7rwBPiSS0nhT-lU2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yv8FQt4upBwkiq0QZttE-1" target="Yv8FQt4upBwkiq0QZttE-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yv8FQt4upBwkiq0QZttE-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Yv8FQt4upBwkiq0QZttE-1" target="Yv8FQt4upBwkiq0QZttE-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="310" as="sourcePoint" />
-            <mxPoint x="450" y="260" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Yv8FQt4upBwkiq0QZttE-1" value="&lt;div&gt;PSD&lt;/div&gt;&lt;div&gt;von Karman&lt;/div&gt;&lt;div&gt;diff piston&lt;/div&gt;&lt;div&gt;\(\Phi_{atm}\)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="10" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Yv8FQt4upBwkiq0QZttE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yv8FQt4upBwkiq0QZttE-4" target="Yv8FQt4upBwkiq0QZttE-8">
+        <mxCell id="WzZo7rwBPiSS0nhT-lU2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yv8FQt4upBwkiq0QZttE-4" target="Yv8FQt4upBwkiq0QZttE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yv8FQt4upBwkiq0QZttE-4" value="&lt;div&gt;Calculate amplitude from \(A=\sqrt{\Phi_{atm}}\)&lt;/div&gt;&lt;div&gt;and random phase from \(\nu = r[0,2\pi]\)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="90" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WzZo7rwBPiSS0nhT-lU2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yv8FQt4upBwkiq0QZttE-8" target="WzZo7rwBPiSS0nhT-lU2-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="167" as="targetPoint" />
+            <mxPoint x="280" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yv8FQt4upBwkiq0QZttE-4" value="&lt;div&gt;Calculate amplitude from \(A=\sqrt{\Phi_{atm}}\)&lt;/div&gt;&lt;div&gt;and random phase from \(\nu = r[0,2\pi]\)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="115" width="120" height="90" as="geometry" />
+        <mxCell id="Yv8FQt4upBwkiq0QZttE-8" value="&lt;div&gt;Calculate time series, \(\phi_{atm}\), from \(\mathcal{iF}\left(A^{i\nu}\right)\)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="212.5" y="200" width="135" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Yv8FQt4upBwkiq0QZttE-8" value="&lt;div&gt;Calculate time series, \(\phi_{atm}\), from \(\mathcal{iF}\left(A^{i\nu}\right)\)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="120" width="135" height="80" as="geometry" />
+        <mxCell id="WzZo7rwBPiSS0nhT-lU2-4" value="&lt;div&gt;Output:&lt;/div&gt;&lt;div&gt;\(\phi_{atm}\)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="330" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
