@@ -355,6 +355,9 @@
         <mxCell id="B_Zw4TSifoxehzgOihlm-27" value="Output: \(\phi + c\)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="480" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="PA-sWi9Yj2SIoCE6a1OD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PA-sWi9Yj2SIoCE6a1OD-1" target="B_Zw4TSifoxehzgOihlm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PA-sWi9Yj2SIoCE6a1OD-1" value="&lt;div&gt;Gain of the commands - \(g\)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="255" width="150" height="60" as="geometry" />
         </mxCell>
