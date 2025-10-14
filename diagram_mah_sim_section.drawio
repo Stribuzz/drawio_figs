@@ -71,7 +71,7 @@
             <mxPoint x="140" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zL2rBSDNeWhpRYL6FzXf-19" value="&lt;div&gt;Calculate commands&lt;/div&gt;&lt;div&gt;\(c_n =- \left(\sum^M_{i=0} \phi^i_{vib,n-delay-\delta t} + n^i\right)\)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zL2rBSDNeWhpRYL6FzXf-19" value="&lt;div&gt;Calculate commands&lt;/div&gt;&lt;div&gt;\(c_n =- g \left(\sum^M_{i=0} \phi^i_{vib,n-delay-\delta t} + n^i\right)\)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="330" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z2Bbj1VNcDYIr00cgcai-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zL2rBSDNeWhpRYL6FzXf-22" target="z2Bbj1VNcDYIr00cgcai-3">
@@ -335,7 +335,7 @@
             <mxPoint x="170" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B_Zw4TSifoxehzgOihlm-17" value="\(c=- \left(\sum^M_{i=0} \phi^i_{vib,n-delay-\delta t} + n\right)\)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B_Zw4TSifoxehzgOihlm-17" value="\(c=- g\left(\sum^M_{i=0} \phi^i_{vib,n-delay-\delta t} + n\right)\)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="350" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B_Zw4TSifoxehzgOihlm-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_Zw4TSifoxehzgOihlm-18" target="B_Zw4TSifoxehzgOihlm-17">
@@ -354,6 +354,9 @@
         </mxCell>
         <mxCell id="B_Zw4TSifoxehzgOihlm-27" value="Output: \(\phi + c\)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PA-sWi9Yj2SIoCE6a1OD-1" value="&lt;div&gt;Gain of the commands - \(g\)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="255" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
