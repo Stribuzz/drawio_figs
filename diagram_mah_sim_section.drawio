@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.5" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.7" pages="6">
   <diagram id="vtG1QSBKQb1yQzs_CNGB" name="Reduced pipeline">
     <mxGraphModel dx="1351" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -354,6 +354,55 @@
         </mxCell>
         <mxCell id="B_Zw4TSifoxehzgOihlm-27" value="Output: \(\phi + c\)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="a94_URdaTESgkfSKU9RG" name="closed_loop_example">
+    <mxGraphModel dx="946" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A7XteGl-fHWwJFnie-_5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A7XteGl-fHWwJFnie-_5-1" target="A7XteGl-fHWwJFnie-_5-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7XteGl-fHWwJFnie-_5-1" value="&lt;svg xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 -442 1079.3 599.8&quot; role=&quot;img&quot; height=&quot;1.357ex&quot; width=&quot;2.442ex&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;vertical-align: -0.357ex;&quot;&gt;&lt;defs&gt;&lt;path d=&quot;M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z&quot; id=&quot;MJX-10-TEX-I-1D465&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z&quot; id=&quot;MJX-10-TEX-I-1D45B&quot;&gt;&lt;/path&gt;&lt;/defs&gt;&lt;g transform=&quot;scale(1,-1)&quot; stroke-width=&quot;0&quot; fill=&quot;currentColor&quot; stroke=&quot;currentColor&quot;&gt;&lt;g data-mml-node=&quot;math&quot;&gt;&lt;g data-mml-node=&quot;msub&quot;&gt;&lt;g data-mml-node=&quot;mi&quot;&gt;&lt;use xlink:href=&quot;#MJX-10-TEX-I-1D465&quot; data-c=&quot;1D465&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;g transform=&quot;translate(605,-150) scale(0.707)&quot; data-mml-node=&quot;mi&quot;&gt;&lt;use xlink:href=&quot;#MJX-10-TEX-I-1D45B&quot; data-c=&quot;1D45B&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="20" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A7XteGl-fHWwJFnie-_5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A7XteGl-fHWwJFnie-_5-4" target="A7XteGl-fHWwJFnie-_5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7XteGl-fHWwJFnie-_5-4" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.abstract.sum;" vertex="1" parent="1">
+          <mxGeometry x="255" y="170" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7XteGl-fHWwJFnie-_5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A7XteGl-fHWwJFnie-_5-5" target="A7XteGl-fHWwJFnie-_5-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7XteGl-fHWwJFnie-_5-5" value="Residuals&lt;div&gt;\( x_n + c_{n-1}\)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A7XteGl-fHWwJFnie-_5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A7XteGl-fHWwJFnie-_5-8" target="A7XteGl-fHWwJFnie-_5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7XteGl-fHWwJFnie-_5-8" value="&lt;div&gt;Measure residuals&lt;div&gt;\( s_n = (x_n + c_{n-1} + n)_{n-1} \)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="350" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A7XteGl-fHWwJFnie-_5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A7XteGl-fHWwJFnie-_5-11" target="A7XteGl-fHWwJFnie-_5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7XteGl-fHWwJFnie-_5-13" value="&lt;div&gt;Actuate&lt;/div&gt;&lt;div&gt;with&lt;/div&gt;&lt;div&gt;delay&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A7XteGl-fHWwJFnie-_5-12">
+          <mxGeometry x="-0.2348" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7XteGl-fHWwJFnie-_5-11" value="&lt;div&gt;New commands:&lt;/div&gt;&lt;div&gt;\(c_n = c_{n-1} + g s_n\)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
