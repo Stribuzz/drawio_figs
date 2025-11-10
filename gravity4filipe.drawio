@@ -36,6 +36,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ISRC5isp1AVKEf6COsJO-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WIJH9bBa3h_w6aDIe_rO-10" target="ISRC5isp1AVKEf6COsJO-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WIJH9bBa3h_w6aDIe_rO-10" value="&lt;div&gt;Telescope&lt;/div&gt;&lt;div&gt;Aperture&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="490" width="120" height="60" as="geometry" />
         </mxCell>
@@ -44,6 +49,25 @@
         </mxCell>
         <mxCell id="WIJH9bBa3h_w6aDIe_rO-13" value="Plane wave: (\(A,\phi=0\))" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="380" y="180" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ISRC5isp1AVKEf6COsJO-1" value="\((A,\phi=\phi_{atm})_{masked}\)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260" y="570" as="geometry">
+            <mxPoint x="10" y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ISRC5isp1AVKEf6COsJO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ISRC5isp1AVKEf6COsJO-4" target="ISRC5isp1AVKEf6COsJO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISRC5isp1AVKEf6COsJO-9" value="\((A,\phi=\phi_{atm} + \phi_{vib})_{masked}\)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ISRC5isp1AVKEf6COsJO-8">
+          <mxGeometry x="-0.2857" relative="1" as="geometry">
+            <mxPoint y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ISRC5isp1AVKEf6COsJO-4" value="Vibration sources" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISRC5isp1AVKEf6COsJO-7" value="&lt;div&gt;Mirror Sensors&lt;/div&gt;(measure only localized vibrations)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="830" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
