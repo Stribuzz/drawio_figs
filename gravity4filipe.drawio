@@ -14,19 +14,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIJH9bBa3h_w6aDIe_rO-1" value="&lt;div&gt;Fringe&lt;/div&gt;&lt;div&gt;Tracking&lt;/div&gt;&lt;div&gt;Star&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="80" width="100" height="80" as="geometry" />
+          <mxGeometry x="460" y="70" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WIJH9bBa3h_w6aDIe_rO-3" value="\(\phi_{T_1} = \phi_{atm,1}\)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WIJH9bBa3h_w6aDIe_rO-4" value="Atmospheric Patch" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="240" width="300" height="60" as="geometry" />
+          <mxGeometry x="350" y="240" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WIJH9bBa3h_w6aDIe_rO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="WIJH9bBa3h_w6aDIe_rO-6" target="WIJH9bBa3h_w6aDIe_rO-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIJH9bBa3h_w6aDIe_rO-6" value="\(\phi_{T_2} = \phi_{atm,2}\)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="640" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WIJH9bBa3h_w6aDIe_rO-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WIJH9bBa3h_w6aDIe_rO-3" target="WIJH9bBa3h_w6aDIe_rO-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -47,11 +47,21 @@
         <mxCell id="WIJH9bBa3h_w6aDIe_rO-10" value="&lt;div&gt;Telescope&lt;/div&gt;&lt;div&gt;Aperture&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="490" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.812;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WIJH9bBa3h_w6aDIe_rO-11" target="JW88G_eAet0Z0Iw9wd7M-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-52" value="&lt;div&gt;\((A,\Phi - \phi_{fDL})_{T2}\)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JW88G_eAet0Z0Iw9wd7M-51">
+          <mxGeometry x="0.933" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WIJH9bBa3h_w6aDIe_rO-11" value="&lt;div&gt;Telescope&lt;/div&gt;&lt;div&gt;Aperture&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="640" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WIJH9bBa3h_w6aDIe_rO-13" value="Plane wave: (\(A,\phi=0\))" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="380" y="180" width="170" height="30" as="geometry" />
+          <mxGeometry x="425" y="210" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ISRC5isp1AVKEf6COsJO-1" value="\((A,\phi=\phi_{atm})_{masked}\)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
           <mxGeometry x="260" y="570" as="geometry">
@@ -213,8 +223,37 @@
         <mxCell id="JW88G_eAet0Z0Iw9wd7M-42" value="&lt;div&gt;Fiber Injection&lt;/div&gt;&lt;div&gt;LP01 mode&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="1670" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.158;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JW88G_eAet0Z0Iw9wd7M-45" target="JW88G_eAet0Z0Iw9wd7M-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-47" value="&lt;div&gt;\((A,\Phi - \phi_{fDL})_{T1}\)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JW88G_eAet0Z0Iw9wd7M-46">
+          <mxGeometry x="-0.2167" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JW88G_eAet0Z0Iw9wd7M-45" value="Fiber Piezo Delay Lines" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="210" y="1860" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JW88G_eAet0Z0Iw9wd7M-48" target="JW88G_eAet0Z0Iw9wd7M-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-50" value="&lt;div&gt;SCI/FT NCPA&lt;/div&gt;&lt;div&gt;correction&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JW88G_eAet0Z0Iw9wd7M-49">
+          <mxGeometry x="-0.1333" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-48" value="&lt;div&gt;Metrology laser&lt;/div&gt;&lt;div&gt;Differential control&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="1870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JW88G_eAet0Z0Iw9wd7M-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="2240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-53" value="&lt;div&gt;Integrated optics beam combiner&lt;/div&gt;&lt;div&gt;ABCD sampling&lt;/div&gt;&lt;div&gt;\((\phi_{T1} - \phi_{T2} + 0)\)&lt;/div&gt;&lt;div&gt;\((\phi_{T1} - \phi_{T2} + \pi/2)\)&lt;/div&gt;&lt;div&gt;\((\phi_{T1} - \phi_{T2} + \pi)\)&lt;/div&gt;&lt;div&gt;\((\phi_{T1} - \phi_{T2} + 3\pi/2)\)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="2040" width="260" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
