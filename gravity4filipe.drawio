@@ -309,6 +309,9 @@
         <mxCell id="JW88G_eAet0Z0Iw9wd7M-66" value="Delay Line commands" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-260" y="2380" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-70" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Data available for analysis&lt;/h1&gt;&lt;p&gt;From the flagged quantities in the schematic below, we have the following structures:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Mirrors accelerometers - Per telescope - 12 sensors across 7 mirrors, each with a (time, measurement) dataset.&lt;/li&gt;&lt;li&gt;Mirror position - same as above, but double integrated.&lt;/li&gt;&lt;li&gt;Delay Lines - 4 delay line positions (1 per telescope).&lt;/li&gt;&lt;li&gt;Beam compressor differential delay lines - same as above.&lt;/li&gt;&lt;li&gt;Deformable mirror -&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="200" width="690" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
