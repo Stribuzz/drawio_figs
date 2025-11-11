@@ -168,7 +168,7 @@
         <mxCell id="JW88G_eAet0Z0Iw9wd7M-24" value="Control Matrix" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="930" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JW88G_eAet0Z0Iw9wd7M-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JW88G_eAet0Z0Iw9wd7M-33">
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JW88G_eAet0Z0Iw9wd7M-33" target="JW88G_eAet0Z0Iw9wd7M-37">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="1390" as="targetPoint" />
           </mxGeometry>
@@ -180,6 +180,41 @@
         </mxCell>
         <mxCell id="JW88G_eAet0Z0Iw9wd7M-33" value="&lt;div&gt;Main Delay Lines &amp;amp;&lt;/div&gt;&lt;div&gt;BCDDLs&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="210" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JW88G_eAet0Z0Iw9wd7M-37" target="JW88G_eAet0Z0Iw9wd7M-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-37" value="&lt;div&gt;Roof Prism&lt;/div&gt;&lt;div&gt;(Separates SCI/FT stars)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JW88G_eAet0Z0Iw9wd7M-38" target="JW88G_eAet0Z0Iw9wd7M-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-41" value="&lt;div&gt;\((A,\phi=\phi_{atm} + \phi_{vib} + \phi_{DM} + \phi_{DL} + \phi_{FG} )_{masked}\)&lt;/div&gt;&lt;div&gt;where fiber guide phase: \( \phi_{FG} = \sum_{i=2,3} c_i Z_i \)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JW88G_eAet0Z0Iw9wd7M-40">
+          <mxGeometry x="-0.2182" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-38" value="&lt;div&gt;Fiber Guiding&lt;/div&gt;&lt;div&gt;Unit (tip/tilt)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JW88G_eAet0Z0Iw9wd7M-42" target="JW88G_eAet0Z0Iw9wd7M-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-44" value="&lt;div&gt;Coupled phasor&lt;/div&gt;&lt;div&gt;\((A,\Phi)\)&lt;/div&gt;&lt;div&gt;where: \(\Phi = \phi * \phi_{LP01} = a_1 Z_1\)&lt;/div&gt;&lt;div&gt;Piston only&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JW88G_eAet0Z0Iw9wd7M-43">
+          <mxGeometry x="-0.0909" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-42" value="&lt;div&gt;Fiber Injection&lt;/div&gt;&lt;div&gt;LP01 mode&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1670" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JW88G_eAet0Z0Iw9wd7M-45" value="Fiber Piezo Delay Lines" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1860" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
